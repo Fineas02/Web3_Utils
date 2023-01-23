@@ -57,7 +57,7 @@ class UniFunctions:
     def send_eth():
         transaction = {
             "nonce": nonce,
-            "to": "0x99373f2D6117bbc43C8f9499353b669Aa42cCab6",
+            "to": "enter address",
             "value": w3.toWei(0.01, "ether"),
             "gas": 300000,
             "gasPrice": w3.eth.gas_price
